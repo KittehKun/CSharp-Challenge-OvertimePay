@@ -1,5 +1,8 @@
-﻿Challenge Title: Working 9 to 5
-Objective: Write a function that calculates overtime and pay associated with overtime.
+﻿-= Challenge Title =-
+Working 9 to 5
+
+-= Objective =-
+Write a function that calculates overtime and pay associated with overtime.
 
 Working 9 to 5: regular hours
 After 5pm is overtime
@@ -12,13 +15,18 @@ Overtime multiplier
 Your function should spit out:
 
 $ + earned that day (rounded to the nearest hundreth)
-Examples
+
+
+-= Examples =-
+
 OverTime([9, 17, 30, 1.5]) ➞ "$240.00"
 
 OverTime([16, 18, 30, 1.8]) ➞ "$84.00"
 
 OverTime([13.25, 15, 30, 1.5]) ➞ "$52.50"
-2nd example explained:
+
+
+-= 2nd example explained =-
 
 From 16 to 17 is regular, so 1 * 30 = 30
 From 17 to 18 is overtime, so 1 * 30 * 1.8 = 54
